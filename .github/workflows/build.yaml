@@ -32,7 +32,7 @@ jobs:
           - benchmark
 
     steps:
-      - uses: actions/checkout@d0651293c4a5a52e711f25b41b05b2212f385d28 #v3
+      - uses: actions/checkout@61b9e3751b92087fd0b06925ba6dd6314e06f089 #v3
       - uses: dart-lang/setup-dart@6a218f2413a3e78e9087f638a238f6b40893203d #v1
         with:
           sdk: dev
